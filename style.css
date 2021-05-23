@@ -75,10 +75,31 @@ button:hover{
     background-color: #86694b;
 }
 
+.container1{
+    height: 100%;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./assets/caroussel/LACLE_WEB_PRESS_HOMEPAGE_1.jpeg");
+    background-size: cover;
+    color: white;
+}
 .images{
     display: flex;
 }
-#caroussel{
-    width: 5024px;
-    overflow: auto;
+.title-sct1{
+    /* background-color: greenyellow; */
+    height: 8em;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 5px;
+    text-shadow: 3px 3px 3px rgb(104, 104, 104);
+}
+.title-sct1-img{
+    padding-top: 15px;
+}
+
+.container2{
+    height: 100%;
 }
