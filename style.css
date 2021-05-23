@@ -1,0 +1,84 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /* background: red; */
+    font-family: 'Roboto', sans-serif;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+    overflow: auto;
+}
+li, a, button{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    /* font-weight: 300; */
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+header{
+    background-color: #03152e;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 40px;
+    color: white;
+}
+.logo{
+    height: 60px;
+    color: white;
+    cursor: pointer;
+    padding: 0px 20px; 
+}
+nav{
+    display: flex;
+    align-items: center;
+   
+}
+/* ul{
+    background-color: tomato;
+} */
+.nav-links{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.nav-links li{
+    display: inline-block;
+    padding: 0px 40px;
+}
+.nav-links li a {
+    transition: all 0.3 ease 0s;
+}
+
+.nav-links li a:hover {
+    color: #0088a9;
+    border-bottom: 3px solid red;
+}
+.nav-links a.active {
+    border-bottom: 3px solid red;
+  }
+button {
+    padding: 9px 25px;
+    background-color: #9d8165;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3 ease 0s;
+}
+button:hover{
+    background-color: #86694b;
+}
+
+.images{
+    display: flex;
+}
+#caroussel{
+    width: 5024px;
+    overflow: auto;
+}
